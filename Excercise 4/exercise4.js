@@ -3,7 +3,7 @@ function sumUntil(maxValue) {
 for (i=1; i <= maxValue; i++) {
 sum +=i;
 }
-return sum
+return sum;
 }
 
 
