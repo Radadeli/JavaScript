@@ -1,5 +1,13 @@
 function nicknameMap(persons) {
-  // ...
+  const nicknames = [];
+
+  persons.forEach(person => {
+    const {name, age} = person;
+    
+    const nickname = `${name}-${age}`; 
+    nicknames.push(nickname);  
+  });
+  return nicknames; 
 }
 
 const persons = [
