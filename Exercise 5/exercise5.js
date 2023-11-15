@@ -4,11 +4,11 @@ const person1 = {
   age: 25,
 };
 
-const person2 = person1;
-// Modify the property `firstName` of the `person2` in "Simon".
-// person2.firstName = "Simon"; 
-person2.firstName = "Simon";
+const person2 = person1                      // {...person1}; de esta manera mantiene los datos de person1 y solo modifica el 2
 
+// Modify the property `firstName` of the `person2` in "Simon".
+// person2.firstName = "Simon";       
+person2.firstName = "Simon";
 console.log(person1);
 console.log(person2);
 // Explicación: 
